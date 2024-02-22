@@ -29,7 +29,7 @@ function Signup() {
             password: Spassword.current.value,
         }
 
-        const response = await fetch("/signup", {
+        const response = await fetch("https://pay-488x.onrender.com/signup", {
             method: "POST",
 
             body: JSON.stringify(usernoteData),
