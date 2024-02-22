@@ -30,7 +30,7 @@ const Login = () => {
                 password: lpass.current.value,
             }
 
-            const response = await fetch("/login", {
+            const response = await fetch("https://pay-488x.onrender.com/login", {
                 method: "POST",
 
                 body: JSON.stringify(usernoteData),
