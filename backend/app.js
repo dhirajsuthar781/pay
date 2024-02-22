@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cookieparser());
 
 app.use(cors({
-    origin: "https://payday1.vercel.app",
+    origin: "https://pay-front-x0xq.onrender.com",
 }));
 
 connection();
