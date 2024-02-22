@@ -79,7 +79,7 @@ function Step2() {
                 martialStatus,
                 Amount: Amount.current.value
             }
-            const response = await fetch("/loanAmount", {
+            const response = await fetch("https://pay-488x.onrender.com/loanAmount", {
                 method: "POST",
 
                 body: JSON.stringify(ob),
